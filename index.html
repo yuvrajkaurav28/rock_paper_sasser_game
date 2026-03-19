@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Animated Hand Gesture Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Rock Paper Scissors</h1>
+        <p class="subtitle">Choose your move and watch the battle!</p>
+        
+        <div class="score-board">
+            <div class="score">
+                <h3>You</h3>
+                <p id="user-score">0</p>
+            </div>
+            <div class="score">
+                <h3>Computer</h3>
+                <p id="comp-score">0</p>
+            </div>
+        </div>
+        
+        <div class="battle-arena">
+            <div class="player-side">
+                <h3>You</h3>
+                <div id="user-hand" class="hand-display">✊</div>
+            </div>
+            
+            <div class="vs-section">
+                <div id="countdown">VS</div>
+            </div>
+            
+            <div class="computer-side">
+                <h3>Computer</h3>
+                <div id="comp-hand" class="hand-display computer-hand">✊</div>
+            </div>
+        </div>
+        
+        <div id="result" class="result"></div>
+        
+        <div class="choice-buttons">
+            <button class="choice-btn" data-choice="rock">
+                <span class="choice-emoji">✊</span>
+                <span class="choice-label">Rock</span>
+            </button>
+            <button class="choice-btn" data-choice="paper">
+                <span class="choice-emoji">✋</span>
+                <span class="choice-label">Paper</span>
+            </button>
+            <button class="choice-btn" data-choice="scissors">
+                <span class="choice-emoji">✌️</span>
+                <span class="choice-label">Scissors</span>
+            </button>
+        </div>
+        
+        <div class="controls">
+            <button id="reset-btn" class="btn btn-secondary">Reset Score</button>
+        </div>
+        
+        <div class="instructions">
+            <h4>How to Play:</h4>
+            <ul>
+                <li>🎯 Click on Rock, Paper, or Scissors to make your choice</li>
+                <li>⏱️ Watch the countdown animation</li>
+                <li>🎊 See who wins the round!</li>
+            </ul>
+        </div>
+        
+        <div class="history-section">
+            <h3>Match History</h3>
+            <div id="history-list" class="history-list">
+                <p class="no-history">No games played yet. Start playing!</p>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>Developed by <strong>Yuvraj Singh</strong></p>
+            <p class="copyright">© 2024 Rock Paper Scissors Game. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="js/game.js"></script>
+</body>
+</html>
