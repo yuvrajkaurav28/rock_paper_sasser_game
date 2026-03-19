@@ -52,11 +52,8 @@ rock-paper-scissors/
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/rock-paper-scissors.git
-cd rock-paper-scissors
-
-# Install Flask
+git clone https://github.com/yuvrajkaurav28/rock_paper_sasser_game.git
+cd rock_paper_sasser_game
 pip install flask
 ```
 
@@ -114,7 +111,7 @@ Response:
 
 **Yuvraj Singh**
 
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@yuvrajkaurav28](https://github.com/yuvrajkaurav28)
 
 ---
 
